@@ -1,0 +1,30 @@
+void drive(int A, int B, int t)
+{
+ OnFwd(OUT_A, A);
+ OnFwd(OUT_B, B);
+ Wait(t);
+ Off(OUT_A);
+ Off(OUT_B);
+};
+
+void sensorUS ()
+{
+	SetSensorLowspeed(IN_4);
+	ClearScreen();
+	NumOut(60, LCD_LINE1, SensorUS(IN_4));
+	Wait(2000);
+};
+
+void sensor ()
+{
+ SetSensorLight(IN_1);
+ ClearScreen();
+ NumOut(60, LCD_LINE1, Sensor(IN_1));
+ Wait(2000);
+};
+
+
+task main()
+{
+ sensor();
+}
