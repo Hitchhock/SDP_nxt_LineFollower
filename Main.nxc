@@ -21,6 +21,9 @@ float sensorUS ()
 {
  SetSensorLowspeed(IN_4);
  return SensorUS(IN_4);
+ ClearScreen();
+ NumOut(60, LCD_LINE1, IN_4);
+ Wait(500);
 };
 
 float sensor1 ()
@@ -82,12 +85,35 @@ void followLine()
  }
 }
 
+void howLongBreaks(int v){
+	/*
+       Counts ticks while not following black line (dependent on speed)
+	*/
+  int firstTick;
+  int lastTick;
+	float startSensor = sensor3();
+	while(true){
+		drive(v,v);
+    if(sensor3() > startSensor*1.2){
+			firstTick = CurrentTick();
+			break;
+		}
+	}
+	while(true){
+		drive(v,v);
+    if(sensor3() < startSensor*1.2){
+      lastTick = CurrentTick();
+      break;
+		}
+	}
+	drive(0,0);
+	NumOut(60, LCD_LINE1, lastTick-firstTick);
+	Wait(5000);
+};
+
 task main()
 {
- float sU = sensorUS();
- ClearScreen();
- NumOut(60, LCD_LINE1, sU);
- Wait(500);
+ howLongBreaks(80);
  //turnAround();
  //followLine();
 }

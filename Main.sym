@@ -1,251 +1,303 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001main	6	1	0	4	2
-1	__DU0SetSensorLowspeed_inline_sensorUS	5	1	4	4	5
-2	__signed_stack_002main	6	1	8	4	2
-3	__CLSRMutex3	9	0	12	4	2
-4	__TextOutMutex	9	0	16	4	2
-5	__D0sensorUS	6	1	20	4	2
-6	__DF0main	10	1	24	4	2
-7	__DF0sensorUS	10	1	28	4	2
-8	__RLSBmutex3	9	0	32	4	2
-9	__D0SetSensorLowspeed_inline_sensorUS	6	1	36	4	2
-10	__CLSWMutex3	9	0	40	4	2
-11	__CLSCSMutex3	9	0	44	4	2
-12	__main_7qG2_sU_7qG2_000	10	1	48	4	2
-13	__ResetSensorMutex	9	0	52	4	2
-14	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	56	4	2
-15	__constVal200	4	0	60	2	2
-16	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS	1	1	62	1	2
-17	__constVal15	2	0	63	1	2
-18	____initialize_global_data_return	1	1	64	1	3
-19	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorUS	1	1	65	1	4
-20	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS	1	1	66	1	2
-21	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorUS	1	1	67	1	2
-22	__sensorUS_return	1	1	68	1	4
-23	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS	1	1	69	1	2
-24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS	1	1	70	1	2
-25	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS	1	1	71	1	2
-26	__ResetSensorPort	1	1	72	1	3
-27	__constVal3	2	0	73	1	1
-28	____ReadLSBytes3_return	1	1	74	1	3
-29	____ResetSensorSubroutine_return	1	1	75	1	3
-30	__LSWriteOptions3	1	1	76	1	1
-31	__ResetSensorTmp	1	1	77	1	2
-32	__RLSBIterations3	1	1	78	1	4
-33	__constVal1	2	0	79	1	5
-34	__PFTmp	1	1	80	1	1
-35	__constVal0	2	1	81	1	1
-36	__RLSBResult3	2	1	82	1	7
-37	__RLSBytesCount3	1	1	83	1	7
-38	__CLSCSArgs3	8	0	3	4	4
-39	__CLSCSArgs3.Result	2	1	84	1	4
-40	__CLSCSArgs3.Port	1	1	85	1	4
-41	__CLSCSArgs3.BytesReady	1	1	86	1	4
-42	__TextOutArgs	8	0	4	16	5
-43	__TextOutArgs.Result	2	1	88	1	5
-44	__TextOutArgs.Location	8	0	2	4	5
-45	__TextOutArgs.Location.X	4	1	92	2	5
-46	__TextOutArgs.Location.Y	4	1	94	2	5
-47	__TextOutArgs.Text	7	0	96	4	5
-48	__TextOutArgs.Text.Text_type	1	0	0	1	0
-49	__TextOutArgs.Options	5	1	100	4	5
-50	__PointOutArgs	8	0	3	12	4
-51	__PointOutArgs.Result	2	1	104	1	4
-52	__PointOutArgs.Location	8	0	2	4	4
-53	__PointOutArgs.Location.X	4	1	108	2	4
-54	__PointOutArgs.Location.Y	4	1	110	2	4
-55	__PointOutArgs.Options	5	1	112	4	4
-56	__CLSWArgs3	8	0	4	12	5
-57	__CLSWArgs3.Result	2	1	116	1	5
-58	__CLSWArgs3.Port	1	1	117	1	5
-59	__CLSWArgs3.Buffer	7	0	118	4	5
-60	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-61	__CLSWArgs3.ReturnLen	1	1	120	1	5
-62	__CLSRArgs3	8	0	4	12	5
-63	__CLSRArgs3.Result	2	1	124	1	5
-64	__CLSRArgs3.Port	1	1	125	1	5
-65	__CLSRArgs3.Buffer	7	0	126	4	5
-66	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-67	__CLSRArgs3.BufferLen	1	1	128	1	5
-68	__RLSReadBuf3	7	0	130	4	8
-69	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-70	__RLSLastGoodRead3	7	0	132	4	2
-71	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-72	__RLSBbufLSWrite1	7	0	134	4	1
-73	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+0	__D0SetSensorLight_inline_sensor3	6	1	0	4	2
+1	__DU0SetSensorLight_inline_sensor3	5	1	4	4	5
+2	__signed_stack_001drive	6	1	8	4	4
+3	__DF0sensor3	10	1	12	4	4
+4	__D0howLongBreaks	6	1	16	4	17
+5	__DF0howLongBreaks	10	1	20	4	4
+6	__D0sensor3	6	1	24	4	2
+7	__howLongBreaks_7qG2_startSensor_7qG2_000	10	1	28	4	3
+8	__constValf1P2	10	0	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_howLongBreaks	5	1	36	4	2
+10	__float_stack_001howLongBreaks	10	1	40	4	4
+11	__signed_stack_001howLongBreaks	6	1	44	4	2
+12	__signed_stack_002howLongBreaks	6	1	48	4	2
+13	__signed_stack_003howLongBreaks	6	1	52	4	2
+14	__TextOutMutex	9	0	56	4	2
+15	__ResetSensorMutex	9	0	60	4	2
+16	__D0drive	6	1	64	4	8
+17	__howLongBreaks_7qG2_firstTick_7qG2_000	4	1	68	2	2
+18	__drive_7qG2_B_7qG2_000	4	1	70	2	4
+19	__drive_7qG2_A_7qG2_000	4	1	72	2	4
+20	__howLongBreaks_7qG2_v_7qG2_000	4	1	74	2	5
+21	__howLongBreaks_7qG2_lastTick_7qG2_000	4	1	76	2	2
+22	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	78	1	2
+23	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	79	1	2
+24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	80	1	2
+25	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	81	1	2
+26	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	82	1	2
+27	__constVal32	2	0	83	1	6
+28	____initialize_global_data_return	1	1	84	1	3
+29	__constVal1	2	0	85	1	3
+30	__howLongBreaks_return	1	1	86	1	3
+31	__constVal0	2	1	87	1	7
+32	__SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3	1	1	88	1	2
+33	____ResetSensorSubroutine_return	1	1	89	1	3
+34	__ResetSensorTmp	1	1	90	1	2
+35	__ResetSensorPort	1	1	91	1	3
+36	__constVal15	2	0	92	1	1
+37	__PFTmp	1	1	93	1	1
+38	__constVal2	2	0	94	1	1
+39	__SetSensorLight_7qG2_port_7qG2_000_inline_sensor3	1	1	95	1	4
+40	__constVal63	2	0	96	1	2
+41	__sensor3_return	1	1	97	1	6
+42	__constVal3	2	0	98	1	2
+43	__drive_return	1	1	99	1	5
+44	__constVal96	2	0	100	1	2
+45	__TextOutArgs	8	0	4	16	6
+46	__TextOutArgs.Result	2	1	104	1	6
+47	__TextOutArgs.Location	8	0	2	4	6
+48	__TextOutArgs.Location.X	4	1	108	2	6
+49	__TextOutArgs.Location.Y	4	1	110	2	6
+50	__TextOutArgs.Text	7	0	112	4	6
+51	__TextOutArgs.Text.Text_type	1	0	0	1	0
+52	__TextOutArgs.Options	5	1	116	4	6
 #SOURCES
 Clump	Line	PC	Source
-0	86	0	#line 86 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	87	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	86	2	#line 86 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	87	2	#line 87 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	88	2		subcall sensorUS, __sensorUS_return
-0	87	4	#line 87 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	88	4		mov __main_7qG2_sU_7qG2_000, __DF0sensorUS
-0	87	6	#line 87 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	6678	6	#line 6678 "NXCDefs.h"
-0	6679	6	#pragma macro 6
-0	6679	6		mov __PointOutArgs.Location.X, __constVal200
-0	6679	8		mov __PointOutArgs.Location.Y, __constVal200
-0	6679	10		mov __PointOutArgs.Options, __constVal1
-0	6679	12		syscall 14, __PointOutArgs
-0	5037	15	#line 5037 "NXCDefs.h"
-0	6678	15	#line 6678 "NXCDefs.h"
-0	88	15	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	88	15	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	89	15		set __signed_stack_001main, 60
-0	88	18	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	88	18	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	89	18		set __signed_stack_002main, 56
-0	88	21	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	88	21	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	89	21		mov __DF0main, __main_7qG2_sU_7qG2_000
-0	89	23	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	23		acquire __TextOutMutex
-0	89	24	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	24		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	89	26	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	26		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	89	28	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	28		set __TextOutArgs.Options, 0
-0	89	31	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	31		numtostr __TextOutArgs.Text, __DF0main
-0	89	34	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	34		syscall 13, __TextOutArgs
-0	89	37	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	89	37	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	37		release __TextOutMutex
-0	89	38	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	89	38	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	90	38		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	89	41	#line 89 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	8551	41	#line 8551 "NXCDefs.h"
-0	8552	41		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	44	#line 8551 "NXCDefs.h"
-0	92	44	#line 92 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-0	93	44		exit -1, -1
+0	115	0	#line 115 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	116	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	115	2	#line 115 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	115	2	#line 115 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	116	2		set __howLongBreaks_7qG2_v_7qG2_000, 80
+0	115	5	#line 115 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	118	5	#line 118 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	119	5		subcall howLongBreaks, __howLongBreaks_return
+0	118	7	#line 118 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	119	7		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	5480	11		subret ____ResetSensorSubroutine_return
-2	6393	0	#pragma macro 25
-2	6393	0		acquire __CLSWMutex3
-2	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
-2	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
-2	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
-2	6393	9		syscall 21, __CLSWArgs3
-2	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
-2	6393	14		release __CLSWMutex3
-2	6393	15	#line 6393 "NXTDefs.h"
-2	6394	15		brtst 5, __RLSBError3, __RLSBResult3
-2	6395	18		set __RLSBIterations3, 60
-2	6397	21	#pragma macro 23
-2	6397	21		acquire __CLSCSMutex3
-2	6397	22		set __CLSCSArgs3.Port, 3
-2	6397	25		syscall 23, __CLSCSArgs3
-2	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
-2	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
-2	6397	32		release __CLSCSMutex3
-2	6397	33	#line 6397 "NXTDefs.h"
-2	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
-2	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
-2	6400	40		brtst 0, __RLSBError3, __RLSBResult3
-2	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
-2	6403	46		wait2 NA, __constVal1
-2	6404	49		jmp __RLSBDoCheckStatus3
-2	6406	51		brtst 4, __RLSBReturn3, __RLSBytesCount3
-2	6407	54		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
-2	6409	58	#pragma macro 25
-2	6409	58		acquire __CLSRMutex3
-2	6409	59		set __CLSRArgs3.Port, 3
-2	6409	62		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
-2	6409	64		syscall 22, __CLSRArgs3
-2	6409	67		mov __RLSReadBuf3, __CLSRArgs3.Buffer
-2	6409	69		mov __RLSBResult3, __CLSRArgs3.Result
-2	6409	71		release __CLSRMutex3
-2	6409	72	#line 6409 "NXTDefs.h"
-2	6410	72		brtst 5, __RLSBError3, __RLSBResult3
-2	6411	75		mov __RLSLastGoodRead3, __RLSReadBuf3
-2	6412	77		jmp __RLSBDone3
-2	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
-2	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
-2	6418	84		subret ____ReadLSBytes3_return
-3	21	0	#line 21 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	22	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorUS, 3
-3	21	3	#line 21 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	22	3	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	23	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorUS, __constVal1
-3	4342	5	#line 4342 "NXCDefs.h"
-3	4343	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorUS
-3	4342	7	#line 4342 "NXCDefs.h"
-3	4342	7	#line 4342 "NXCDefs.h"
-3	4343	7		mov __DU0SetSensorLowspeed_inline_sensorUS, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorUS
-3	4342	9	#line 4342 "NXCDefs.h"
-3	4343	9		tst 5, __D0SetSensorLowspeed_inline_sensorUS, __DU0SetSensorLowspeed_inline_sensorUS
-3	4342	12	#line 4342 "NXCDefs.h"
-3	4343	12		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_sensorUS
-3	4342	15	#line 4342 "NXCDefs.h"
-3	4343	15		set __DU0SetSensorLowspeed_inline_sensorUS, 11
-3	4342	18	#line 4342 "NXCDefs.h"
-3	4342	18	#line 4342 "NXCDefs.h"
-3	4343	18		jmp __004__ASM_Label_37
-3	4342	20	#line 4342 "NXCDefs.h"
-3	4343	20		set __DU0SetSensorLowspeed_inline_sensorUS, 10
-3	4342	23	#line 4342 "NXCDefs.h"
-3	4342	23	#line 4342 "NXCDefs.h"
-3	4343	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __DU0SetSensorLowspeed_inline_sensorUS
+2	4	0	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	0		set __signed_stack_001drive, 0
+2	4	3	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	4	3	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	3		mov __D0drive, __drive_7qG2_A_7qG2_000
+2	4	5	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	5		sub __D0drive, __signed_stack_001drive, __D0drive
+2	5	9	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	9	#pragma macro 7
+2	6	9		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4258	32	#line 4258 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	32	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	32	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	32		set __signed_stack_001drive, 0
+2	5	35	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	35	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	35		mov __D0drive, __drive_7qG2_B_7qG2_000
+2	5	37	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	37		sub __D0drive, __signed_stack_001drive, __D0drive
+2	6	41	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	7	41	#pragma macro 7
+2	7	41		setout __constVal1, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4273	64	#line 4273 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	64	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	64	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	7	64		subret __drive_return
+3	40	0	#line 40 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	41	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3, 2
+3	40	3	#line 40 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	41	3	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	42	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3, __constVal1
+3	4313	5	#line 4313 "NXCDefs.h"
+3	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+3	4313	7	#line 4313 "NXCDefs.h"
+3	4313	7	#line 4313 "NXCDefs.h"
+3	4314	7		mov __DU0SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3
+3	4313	9	#line 4313 "NXCDefs.h"
+3	4314	9		tst 5, __D0SetSensorLight_inline_sensor3, __DU0SetSensorLight_inline_sensor3
+3	4313	12	#line 4313 "NXCDefs.h"
+3	4314	12		brtst 4, __003__ASM_Label_4, __D0SetSensorLight_inline_sensor3
+3	4313	15	#line 4313 "NXCDefs.h"
+3	4314	15		set __DU0SetSensorLight_inline_sensor3, 5
+3	4313	18	#line 4313 "NXCDefs.h"
+3	4313	18	#line 4313 "NXCDefs.h"
+3	4314	18		jmp __003__ASM_Label_5
+3	4313	20	#line 4313 "NXCDefs.h"
+3	4314	20		set __DU0SetSensorLight_inline_sensor3, 6
+3	4313	23	#line 4313 "NXCDefs.h"
+3	4313	23	#line 4313 "NXCDefs.h"
+3	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3, __DU0SetSensorLight_inline_sensor3
 3	4247	25	#line 4247 "NXCDefs.h"
-3	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, 0
+3	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, 0
 3	4247	29	#line 4247 "NXCDefs.h"
-3	4343	29	#line 4343 "NXCDefs.h"
-3	4343	29	#line 4343 "NXCDefs.h"
-3	4344	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorUS
-3	4343	31	#line 4343 "NXCDefs.h"
-3	4343	31	#line 4343 "NXCDefs.h"
-3	4344	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, 0
-3	4343	34	#line 4343 "NXCDefs.h"
+3	4314	29	#line 4314 "NXCDefs.h"
+3	4314	29	#line 4314 "NXCDefs.h"
+3	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+3	4314	31	#line 4314 "NXCDefs.h"
+3	4314	31	#line 4314 "NXCDefs.h"
+3	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3, 128
+3	4314	34	#line 4314 "NXCDefs.h"
 3	4260	34	#line 4260 "NXCDefs.h"
-3	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, 1
+3	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, 1
 3	4260	38	#line 4260 "NXCDefs.h"
-3	4344	38	#line 4344 "NXCDefs.h"
-3	4344	38	#line 4344 "NXCDefs.h"
-3	4345	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorUS
-3	4344	40	#line 4344 "NXCDefs.h"
+3	4315	38	#line 4315 "NXCDefs.h"
+3	4315	38	#line 4315 "NXCDefs.h"
+3	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+3	4315	40	#line 4315 "NXCDefs.h"
 3	4278	40	#line 4278 "NXCDefs.h"
 3	4279	40	#pragma macro 4
 3	4279	40		acquire __ResetSensorMutex
-3	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorUS
+3	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3
 3	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 3	4279	45		release __ResetSensorMutex
-3	4368	46	#line 4368 "NXCDefs.h"
+3	4817	46	#line 4817 "NXCDefs.h"
 3	4278	46	#line 4278 "NXCDefs.h"
-3	4345	46	#line 4345 "NXCDefs.h"
-3	22	46	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	22	46	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	23	46	#pragma macro 26
-3	23	46		acquire __RLSBmutex3
-3	23	47		mov __RLSReadBuf3, __RLSBbufLSWrite1
-3	23	49		set __RLSBytesCount3, 1
-3	23	52		wait2 NA, __constVal15
-3	23	55		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-3	23	57		index __D0sensorUS, __RLSReadBuf3, 65535
-3	23	61		release __RLSBmutex3
-3	4373	62	#line 4373 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	22	62	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	23	62		mov __DF0sensorUS, __D0sensorUS
-3	22	64	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	23	64		subret __sensorUS_return
-3	22	66	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	22	66	#line 22 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	23	66	#line 23 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-3	24	66		subret __sensorUS_return
-4	95	0	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
-4	96	0		subret ____initialize_global_data_return
+3	4316	46	#line 4316 "NXCDefs.h"
+3	41	46	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	41	46	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	42	46		getin __D0sensor3, __constVal2, 4
+3	41	50	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	42	50		mov __DF0sensor3, __D0sensor3
+3	41	52	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	42	52		subret __sensor3_return
+3	41	54	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	41	54	#line 41 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	42	54	#line 42 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	43	54		subret __sensor3_return
+4	94	0	#line 94 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	95	0		subcall sensor3, __sensor3_return
+4	94	2	#line 94 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	95	2		mov __howLongBreaks_7qG2_startSensor_7qG2_000, __DF0sensor3
+4	94	4	#line 94 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	94	4	#line 94 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	95	4		set __D0howLongBreaks, 1
+4	95	7	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	7		tst 5, __D0howLongBreaks, __D0howLongBreaks
+4	95	10	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	10		brtst 4, __ASM_Label_596, __D0howLongBreaks
+4	95	13	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	13		mov __drive_7qG2_A_7qG2_000, __howLongBreaks_7qG2_v_7qG2_000
+4	95	15	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	95	15	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	15		mov __drive_7qG2_B_7qG2_000, __howLongBreaks_7qG2_v_7qG2_000
+4	95	17	#line 95 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	17	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	17		subcall drive, __drive_return
+4	96	19	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	19	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	19		subcall sensor3, __sensor3_return
+4	96	21	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	21		mov __float_stack_001howLongBreaks, __DF0sensor3
+4	96	23	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	23	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	23	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	23	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	96	23	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	23		mul __DF0howLongBreaks, __howLongBreaks_7qG2_startSensor_7qG2_000, __constValf1P2
+4	96	27	#line 96 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	27		cmp 1, __D0howLongBreaks, __float_stack_001howLongBreaks, __DF0howLongBreaks
+4	97	31	#line 97 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	98	31		brtst 4, __ASM_Label_605, __D0howLongBreaks
+4	97	34	#line 97 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	98	34		gettick __howLongBreaks_7qG2_firstTick_7qG2_000
+4	97	36	#line 97 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	36	#line 97 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	97	36	#line 97 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	99	36	#line 99 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	100	36		jmp __ASM_Label_596
+4	99	38	#line 99 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	101	38	#line 101 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	101	38	#line 101 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	102	38		jmp __ASM_Label_595
+4	101	40	#line 101 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	101	40	#line 101 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	102	40		set __D0howLongBreaks, 1
+4	102	43	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	43		tst 5, __D0howLongBreaks, __D0howLongBreaks
+4	102	46	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	46		brtst 4, __ASM_Label_609, __D0howLongBreaks
+4	102	49	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	49		mov __drive_7qG2_A_7qG2_000, __howLongBreaks_7qG2_v_7qG2_000
+4	102	51	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	102	51	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	51		mov __drive_7qG2_B_7qG2_000, __howLongBreaks_7qG2_v_7qG2_000
+4	102	53	#line 102 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	53	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	53		subcall drive, __drive_return
+4	103	55	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	55	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	55		subcall sensor3, __sensor3_return
+4	103	57	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	57		mov __float_stack_001howLongBreaks, __DF0sensor3
+4	103	59	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	59	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	59	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	59	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	103	59	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	59		mul __DF0howLongBreaks, __howLongBreaks_7qG2_startSensor_7qG2_000, __constValf1P2
+4	103	63	#line 103 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	63		cmp 0, __D0howLongBreaks, __float_stack_001howLongBreaks, __DF0howLongBreaks
+4	104	67	#line 104 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	105	67		brtst 4, __ASM_Label_618, __D0howLongBreaks
+4	104	70	#line 104 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	105	70		gettick __howLongBreaks_7qG2_lastTick_7qG2_000
+4	104	72	#line 104 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	72	#line 104 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	104	72	#line 104 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	106	72	#line 106 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	107	72		jmp __ASM_Label_609
+4	106	74	#line 106 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	108	74	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	108	74	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	74		jmp __ASM_Label_608
+4	108	76	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	108	76	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	76		set __drive_7qG2_A_7qG2_000, 0
+4	108	79	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	108	79	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	79		set __drive_7qG2_B_7qG2_000, 0
+4	108	82	#line 108 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	82	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	82		subcall drive, __drive_return
+4	109	84	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	84	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	84		set __signed_stack_001howLongBreaks, 60
+4	109	87	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	87	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	87		set __signed_stack_002howLongBreaks, 56
+4	109	90	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	90	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	90		mov __signed_stack_003howLongBreaks, __howLongBreaks_7qG2_lastTick_7qG2_000
+4	109	92	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	109	92	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	92		mov __D0howLongBreaks, __howLongBreaks_7qG2_firstTick_7qG2_000
+4	109	94	#line 109 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	94		sub __D0howLongBreaks, __signed_stack_003howLongBreaks, __D0howLongBreaks
+4	110	98	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	98		acquire __TextOutMutex
+4	110	99	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	99		mov __TextOutArgs.Location.X, __signed_stack_001howLongBreaks
+4	110	101	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	101		mov __TextOutArgs.Location.Y, __signed_stack_002howLongBreaks
+4	110	103	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	103		set __TextOutArgs.Options, 0
+4	110	106	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	106		numtostr __TextOutArgs.Text, __D0howLongBreaks
+4	110	109	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	109		syscall 13, __TextOutArgs
+4	110	112	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	112		mov __D0howLongBreaks, __TextOutArgs.Result
+4	110	114	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	114		release __TextOutMutex
+4	110	115	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	110	115	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	115		set __Wait_7qG2_ms_7qG2_000_inline_howLongBreaks, 5000
+4	110	118	#line 110 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	8551	118	#line 8551 "NXCDefs.h"
+4	8552	118		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_howLongBreaks
+4	8551	121	#line 8551 "NXCDefs.h"
+4	111	121	#line 111 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	111	121	#line 111 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	112	121		subret __howLongBreaks_return
+5	121	0	#line 121 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	122	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
-1	__ResetSensorSubroutine	47	NXTDefs.h
-2	__ReadLSBytes3	60	NXTDefs.h
-3	sensorUS	146	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
-4	__initialize_global_data	214	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+1	__ResetSensorSubroutine	10	NXTDefs.h
+2	drive	23	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+3	sensor3	89	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+4	howLongBreaks	145	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+5	__initialize_global_data	268	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
