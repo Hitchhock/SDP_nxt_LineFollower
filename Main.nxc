@@ -17,11 +17,10 @@ void turn (int a, int v)
  drive(motA, motB);
 }
 
-void sensorUS ()
+float sensorUS ()
 {
-	SetSensorLowspeed(IN_4);
-	ClearScreen();
-	NumOut(60, LCD_LINE1, SensorUS(IN_4));
+ SetSensorLowspeed(IN_4);
+ return SensorUS(IN_4);
 };
 
 float sensor1 ()
@@ -71,16 +70,24 @@ float turnAround()
  }
 }
 
-
-task main()
+void followLine()
 {
- turnAround();
  int i = 0;
  float a = abs(getRelativeSensorLights());
  while(i<1000)
  {
- float winkel = getRelativeSensorLights();
- turn(winkel, 50);
- i++;
+  float winkel = getRelativeSensorLights();
+  turn(winkel, 50);
+  i++;
  }
+}
+
+task main()
+{
+ float sU = sensorUS();
+ ClearScreen();
+ NumOut(60, LCD_LINE1, sU);
+ Wait(500);
+ //turnAround();
+ //followLine();
 }
