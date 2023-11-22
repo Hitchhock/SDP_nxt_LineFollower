@@ -1,30 +1,86 @@
-void drive(int A, int B, int t)
+
+
+void drive(int A, int B)
 {
- OnFwd(OUT_A, A);
- OnFwd(OUT_B, B);
- Wait(t);
- Off(OUT_A);
- Off(OUT_B);
+ OnFwd(OUT_A, -A);
+ OnFwd(OUT_B, -B);
 };
+
+void turn (int a, int v)
+{
+ if (a>10){
+    v = 50;
+ }
+ float motA = v + a;
+ float motB = v - a;
+ 
+ drive(motA, motB);
+}
 
 void sensorUS ()
 {
 	SetSensorLowspeed(IN_4);
 	ClearScreen();
 	NumOut(60, LCD_LINE1, SensorUS(IN_4));
-	Wait(2000);
 };
 
-void sensor ()
+float sensor1 ()
 {
  SetSensorLight(IN_1);
- ClearScreen();
- NumOut(60, LCD_LINE1, Sensor(IN_1));
- Wait(2000);
+ return Sensor(IN_1);
 };
+float sensor2 ()
+{
+ SetSensorLight(IN_2);
+ return Sensor(IN_2);
+};
+float sensor3 ()
+{
+ SetSensorLight(IN_3);
+ return Sensor(IN_3);
+};
+
+float getRelativeSensorLights()
+{
+ int Abweichung = 0.05;
+ float sR = sensor1();
+ float sL = sensor2();
+ float sM = sensor3();
+
+ 
+ float abRM = sR - sM;
+ float abLM = sL - sM;
+ float a = abRM - abLM;
+
+ return a;
+};
+
+float turnAround()
+{
+ turn(50, 0);
+ Wait(5);
+ while (true)
+ {
+  float winkel =  abs(getRelativeSensorLights());
+  NumOut(60, LCD_LINE1, winkel);
+  if (winkel > 20){
+     turn(0,0);
+     break;
+  }
+  turn(50,0);
+ }
+}
 
 
 task main()
 {
- sensor();
+ turnAround();
+ int i = 0;
+ float a = abs(getRelativeSensorLights());
+ while(i<1000)
+ {
+ float winkel = getRelativeSensorLights();
+ turn(winkel, 50);
+ i++;
+ }
 }

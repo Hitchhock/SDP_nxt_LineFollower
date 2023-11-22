@@ -1,160 +1,540 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0SetSensorLight_inline_sensor	6	1	0	4	2
-1	__D0sensor	6	1	4	4	3
-2	__PointOutMutex	9	0	8	4	2
-3	__DU0SetSensorLight_inline_sensor	5	1	12	4	5
-4	__Wait_7qG2_ms_7qG2_000_inline_sensor	5	1	16	4	2
-5	__signed_stack_002sensor	6	1	20	4	2
-6	__signed_stack_001sensor	6	1	24	4	2
-7	__TextOutMutex	9	0	28	4	2
-8	__ResetSensorMutex	9	0	32	4	2
-9	__constVal200	4	0	36	2	2
-10	____initialize_global_data_return	1	1	38	1	3
-11	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor	1	1	39	1	2
-12	__SetSensorLight_7qG2_port_7qG2_000_inline_sensor	1	1	40	1	4
-13	__SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor	1	1	41	1	2
-14	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor	1	1	42	1	2
-15	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor	1	1	43	1	2
-16	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor	1	1	44	1	2
-17	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor	1	1	45	1	2
-18	__constVal1	2	0	46	1	3
-19	____ResetSensorSubroutine_return	1	1	47	1	3
-20	__constVal15	2	0	48	1	1
-21	__PFTmp	1	1	49	1	1
-22	__ResetSensorTmp	1	1	50	1	2
-23	__sensor_return	1	1	51	1	3
-24	__constVal0	2	1	52	1	1
-25	__ResetSensorPort	1	1	53	1	3
-26	__TextOutArgs	8	0	4	16	6
-27	__TextOutArgs.Result	2	1	56	1	6
-28	__TextOutArgs.Location	8	0	2	4	6
-29	__TextOutArgs.Location.X	4	1	60	2	6
-30	__TextOutArgs.Location.Y	4	1	62	2	6
-31	__TextOutArgs.Text	7	0	64	4	6
-32	__TextOutArgs.Text.Text_type	1	0	0	1	0
-33	__TextOutArgs.Options	5	1	68	4	6
-34	__PointOutArgs	8	0	3	12	4
-35	__PointOutArgs.Result	2	1	72	1	4
-36	__PointOutArgs.Location	8	0	2	4	4
-37	__PointOutArgs.Location.X	4	1	76	2	4
-38	__PointOutArgs.Location.Y	4	1	78	2	4
-39	__PointOutArgs.Options	5	1	80	4	4
+0	__D0SetSensorLight_inline_sensor1	6	1	0	4	2
+1	__DF0turnAround	10	1	4	4	6
+2	__DU0SetSensorLight_inline_sensor1	5	1	8	4	5
+3	__DU0SetSensorLight_inline_sensor2	5	1	12	4	5
+4	__D0SetSensorLight_inline_sensor2	6	1	16	4	2
+5	__D0sensor3	6	1	20	4	2
+6	__DF0sensor2	10	1	24	4	2
+7	__DF0sensor3	10	1	28	4	3
+8	__D0turnAround	6	1	32	4	7
+9	__D0turn	6	1	36	4	8
+10	__signed_stack_002turnAround	6	1	40	4	2
+11	__signed_stack_001turnAround	6	1	44	4	2
+12	__float_stack_001turnAround	10	1	48	4	2
+13	__turn_7qG2_motB_7qG2_000	10	1	52	4	2
+14	__turn_7qG2_motA_7qG2_000	10	1	56	4	2
+15	__DU0SetSensorLight_inline_sensor3	5	1	60	4	5
+16	__D0SetSensorLight_inline_sensor3	6	1	64	4	2
+17	__signed_stack_001drive	6	1	68	4	4
+18	__signed_stack_001turn	6	1	72	4	6
+19	__signed_stack_001main	6	1	76	4	2
+20	__D0sensor2	6	1	80	4	2
+21	__getRelativeSensorLights_7qG2_abRM_7qG2_000	10	1	84	4	2
+22	__getRelativeSensorLights_7qG2_abLM_7qG2_000	10	1	88	4	2
+23	__getRelativeSensorLights_7qG2_sM_7qG2_000	10	1	92	4	2
+24	__TextOutMutex	9	0	96	4	2
+25	__Wait_7qG2_ms_7qG2_000_inline_turnAround	5	1	100	4	2
+26	__turnAround_7qG2_winkel_7qG2_001	10	1	104	4	3
+27	__getRelativeSensorLights_7qG2_a_7qG2_000	10	1	108	4	2
+28	__ResetSensorMutex	9	0	112	4	6
+29	__getRelativeSensorLights_7qG2_sL_7qG2_000	10	1	116	4	2
+30	__D0main	6	1	120	4	4
+31	__DF0getRelativeSensorLights	10	1	124	4	3
+32	__DF0sensor1	10	1	128	4	2
+33	__D0sensor1	6	1	132	4	2
+34	__getRelativeSensorLights_7qG2_sR_7qG2_000	10	1	136	4	2
+35	__D0drive	6	1	140	4	8
+36	__drive_7qG2_B_7qG2_000	4	1	144	2	2
+37	__turn_7qG2_v_7qG2_000	4	1	146	2	7
+38	__main_7qG2_i_7qG2_000	4	1	148	2	4
+39	__turn_7qG2_a_7qG2_000	4	1	150	2	7
+40	__drive_7qG2_A_7qG2_000	4	1	152	2	2
+41	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2	1	1	154	1	2
+42	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor2	1	1	155	1	2
+43	__SetSensorLight_7qG2_port_7qG2_000_inline_sensor3	1	1	156	1	4
+44	__sensor3_return	1	1	157	1	4
+45	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2	1	1	158	1	2
+46	__SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor2	1	1	159	1	2
+47	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2	1	1	160	1	2
+48	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor2	1	1	161	1	2
+49	__SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3	1	1	162	1	2
+50	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	163	1	2
+51	__turnAround_return	1	1	164	1	3
+52	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	165	1	2
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	166	1	2
+54	____initialize_global_data_return	1	1	167	1	3
+55	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	168	1	2
+56	__getRelativeSensorLights_return	1	1	169	1	6
+57	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3	1	1	170	1	2
+58	__SetSensorLight_7qG2_port_7qG2_000_inline_sensor2	1	1	171	1	4
+59	__constVal2	2	0	172	1	1
+60	____ResetSensorSubroutine_return	1	1	173	1	5
+61	__ResetSensorTmp	1	1	174	1	2
+62	__constVal15	2	0	175	1	1
+63	__PFTmp	1	1	176	1	1
+64	__constVal20	2	0	177	1	1
+65	__constVal0	2	1	178	1	9
+66	__constVal1	2	0	179	1	7
+67	__constVal32	2	0	180	1	6
+68	__ResetSensorPort	1	1	181	1	5
+69	__constVal3	2	0	182	1	2
+70	__constVal50	2	0	183	1	1
+71	__drive_return	1	1	184	1	3
+72	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1	1	1	185	1	2
+73	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor1	1	1	186	1	2
+74	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1	1	1	187	1	2
+75	__sensor2_return	1	1	188	1	4
+76	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1	1	1	189	1	2
+77	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor1	1	1	190	1	2
+78	__SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor1	1	1	191	1	2
+79	__turn_return	1	1	192	1	6
+80	__constVal63	2	0	193	1	2
+81	__constVal96	2	0	194	1	2
+82	__SetSensorLight_7qG2_port_7qG2_000_inline_sensor1	1	1	195	1	4
+83	__sensor1_return	1	1	196	1	4
+84	__TextOutArgs	8	0	4	16	6
+85	__TextOutArgs.Result	2	1	200	1	6
+86	__TextOutArgs.Location	8	0	2	4	6
+87	__TextOutArgs.Location.X	4	1	204	2	6
+88	__TextOutArgs.Location.Y	4	1	206	2	6
+89	__TextOutArgs.Text	7	0	208	4	6
+90	__TextOutArgs.Text.Text_type	1	0	0	1	0
+91	__TextOutArgs.Options	5	1	212	4	6
 #SOURCES
 Clump	Line	PC	Source
-0	28	0	#line 28 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-0	29	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	28	2	#line 28 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-0	29	2	#line 29 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-0	30	2		subcall sensor, __sensor_return
-0	29	4	#line 29 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-0	30	4		exit -1, -1
+0	76	0	#line 76 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	77	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	76	2	#line 76 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	77	2	#line 77 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	78	2		subcall turnAround, __turnAround_return
+0	77	4	#line 77 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	77	4	#line 77 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	78	4	#line 78 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	79	4		mov __main_7qG2_i_7qG2_000, __constVal0
+0	78	6	#line 78 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	78	6	#line 78 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	79	6		subcall getRelativeSensorLights, __getRelativeSensorLights_return
+0	78	8	#line 78 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	79	8	#line 79 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	79	8	#line 79 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	79	8	#line 79 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	80	8		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	79	10	#line 79 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	80	10	#line 80 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	81	10		set __D0main, 1000
+0	80	13	#line 80 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	81	13		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	81	17	#line 81 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	82	17		brtst 4, __ASM_Label_580, __D0main
+0	82	20	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	83	20		subcall getRelativeSensorLights, __getRelativeSensorLights_return
+0	82	22	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	82	22	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	82	22	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	83	22		mov __turn_7qG2_a_7qG2_000, __DF0getRelativeSensorLights
+0	82	24	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	82	24	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	83	24		mov __turn_7qG2_v_7qG2_000, __constVal50
+0	82	26	#line 82 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	83	26	#line 83 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	84	26		subcall turn, __turn_return
+0	83	28	#line 83 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	84	28	#line 84 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	85	28		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	84	32	#line 84 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	87	32	#line 87 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	88	32		jmp __ASM_Label_579
+0	87	34	#line 87 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+0	88	34		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	5480	11		subret ____ResetSensorSubroutine_return
-2	19	0	#line 19 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	20	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_sensor, 0
-2	19	3	#line 19 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	20	3	#line 20 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	21	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor, __constVal1
-2	4313	5	#line 4313 "NXCDefs.h"
-2	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor
-2	4313	7	#line 4313 "NXCDefs.h"
-2	4313	7	#line 4313 "NXCDefs.h"
-2	4314	7		mov __DU0SetSensorLight_inline_sensor, __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor
-2	4313	9	#line 4313 "NXCDefs.h"
-2	4314	9		tst 5, __D0SetSensorLight_inline_sensor, __DU0SetSensorLight_inline_sensor
-2	4313	12	#line 4313 "NXCDefs.h"
-2	4314	12		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_sensor
-2	4313	15	#line 4313 "NXCDefs.h"
-2	4314	15		set __DU0SetSensorLight_inline_sensor, 5
-2	4313	18	#line 4313 "NXCDefs.h"
-2	4313	18	#line 4313 "NXCDefs.h"
-2	4314	18		jmp __001__ASM_Label_5
-2	4313	20	#line 4313 "NXCDefs.h"
-2	4314	20		set __DU0SetSensorLight_inline_sensor, 6
-2	4313	23	#line 4313 "NXCDefs.h"
-2	4313	23	#line 4313 "NXCDefs.h"
-2	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor, __DU0SetSensorLight_inline_sensor
-2	4247	25	#line 4247 "NXCDefs.h"
-2	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor, 0
-2	4247	29	#line 4247 "NXCDefs.h"
-2	4314	29	#line 4314 "NXCDefs.h"
-2	4314	29	#line 4314 "NXCDefs.h"
-2	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor
-2	4314	31	#line 4314 "NXCDefs.h"
-2	4314	31	#line 4314 "NXCDefs.h"
-2	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor, 128
-2	4314	34	#line 4314 "NXCDefs.h"
-2	4260	34	#line 4260 "NXCDefs.h"
-2	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor, 1
-2	4260	38	#line 4260 "NXCDefs.h"
-2	4315	38	#line 4315 "NXCDefs.h"
-2	4315	38	#line 4315 "NXCDefs.h"
-2	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor
-2	4315	40	#line 4315 "NXCDefs.h"
-2	4278	40	#line 4278 "NXCDefs.h"
-2	4279	40	#pragma macro 4
-2	4279	40		acquire __ResetSensorMutex
-2	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor
-2	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	4279	45		release __ResetSensorMutex
-2	4185	46	#line 4185 "NXCDefs.h"
-2	4278	46	#line 4278 "NXCDefs.h"
-2	4316	46	#line 4316 "NXCDefs.h"
-2	20	46	#line 20 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	6678	46	#line 6678 "NXCDefs.h"
-2	6679	46	#pragma macro 6
-2	6679	46		acquire __PointOutMutex
-2	6679	47		mov __PointOutArgs.Location.X, __constVal200
-2	6679	49		mov __PointOutArgs.Location.Y, __constVal200
-2	6679	51		mov __PointOutArgs.Options, __constVal1
-2	6679	53		syscall 14, __PointOutArgs
-2	6679	56		release __PointOutMutex
-2	4190	57	#line 4190 "NXCDefs.h"
-2	6678	57	#line 6678 "NXCDefs.h"
-2	21	57	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	21	57	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	22	57		set __signed_stack_001sensor, 60
-2	21	60	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	21	60	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	22	60		set __signed_stack_002sensor, 56
-2	21	63	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	21	63	#line 21 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	22	63		getin __D0sensor, __constVal0, 4
-2	22	67	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	67		acquire __TextOutMutex
-2	22	68	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	68		mov __TextOutArgs.Location.X, __signed_stack_001sensor
-2	22	70	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	70		mov __TextOutArgs.Location.Y, __signed_stack_002sensor
-2	22	72	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	72		set __TextOutArgs.Options, 0
-2	22	75	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	75		numtostr __TextOutArgs.Text, __D0sensor
-2	22	78	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	78		syscall 13, __TextOutArgs
-2	22	81	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	81		mov __D0sensor, __TextOutArgs.Result
-2	22	83	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	83		release __TextOutMutex
-2	22	84	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	22	84	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	22	84	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	84		set __Wait_7qG2_ms_7qG2_000_inline_sensor, 2000
-2	22	87	#line 22 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	8551	87	#line 8551 "NXCDefs.h"
-2	8552	87		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_sensor
-2	8551	90	#line 8551 "NXCDefs.h"
-2	23	90	#line 23 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	23	90	#line 23 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-2	24	90		subret __sensor_return
-3	32	0	#line 32 "C:\Users\hjuhj\AppData\Local\Temp\temp.nxc"
-3	33	0		subret ____initialize_global_data_return
+2	4	0	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	0		set __signed_stack_001drive, 0
+2	4	3	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	4	3	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	3		mov __D0drive, __drive_7qG2_A_7qG2_000
+2	4	5	#line 4 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	5		sub __D0drive, __signed_stack_001drive, __D0drive
+2	5	9	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	9	#pragma macro 7
+2	6	9		setout __constVal0, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4090	32	#line 4090 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	32	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	32	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	32		set __signed_stack_001drive, 0
+2	5	35	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	5	35	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	35		mov __D0drive, __drive_7qG2_B_7qG2_000
+2	5	37	#line 5 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	37		sub __D0drive, __signed_stack_001drive, __D0drive
+2	6	41	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	7	41	#pragma macro 7
+2	7	41		setout __constVal1, 2, __D0drive, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	4105	64	#line 4105 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	64	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	6	64	#line 6 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+2	7	64		subret __drive_return
+3	10	0	#line 10 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	11	0		mov __signed_stack_001turn, __turn_7qG2_a_7qG2_000
+3	10	2	#line 10 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	10	2	#line 10 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	11	2		set __D0turn, 10
+3	10	5	#line 10 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	11	5		cmp 1, __D0turn, __signed_stack_001turn, __D0turn
+3	11	9	#line 11 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	12	9		brtst 4, __ASM_Label_495, __D0turn
+3	12	12	#line 12 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	13	12		set __turn_7qG2_v_7qG2_000, 50
+3	12	15	#line 12 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	12	15	#line 12 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	13	15	#line 13 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	13	15	#line 13 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	14	15		mov __signed_stack_001turn, __turn_7qG2_v_7qG2_000
+3	13	17	#line 13 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	14	17	#line 14 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	15	17		mov __D0turn, __turn_7qG2_a_7qG2_000
+3	14	19	#line 14 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	15	19		add __turn_7qG2_motA_7qG2_000, __signed_stack_001turn, __D0turn
+3	14	23	#line 14 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	14	23	#line 14 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	15	23		mov __signed_stack_001turn, __turn_7qG2_v_7qG2_000
+3	14	25	#line 14 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	16	25	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	17	25		mov __D0turn, __turn_7qG2_a_7qG2_000
+3	16	27	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	17	27		sub __turn_7qG2_motB_7qG2_000, __signed_stack_001turn, __D0turn
+3	16	31	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	16	31	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	17	31		mov __drive_7qG2_A_7qG2_000, __turn_7qG2_motA_7qG2_000
+3	16	33	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	16	33	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	17	33		mov __drive_7qG2_B_7qG2_000, __turn_7qG2_motB_7qG2_000
+3	16	35	#line 16 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	17	35	#line 17 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	18	35		subcall drive, __drive_return
+3	17	37	#line 17 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	19	37	#line 19 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+3	20	37		subret __turn_return
+4	28	0	#line 28 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	29	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_sensor1, 0
+4	28	3	#line 28 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	29	3	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	30	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor1, __constVal1
+4	4313	5	#line 4313 "NXCDefs.h"
+4	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor1
+4	4313	7	#line 4313 "NXCDefs.h"
+4	4313	7	#line 4313 "NXCDefs.h"
+4	4314	7		mov __DU0SetSensorLight_inline_sensor1, __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor1
+4	4313	9	#line 4313 "NXCDefs.h"
+4	4314	9		tst 5, __D0SetSensorLight_inline_sensor1, __DU0SetSensorLight_inline_sensor1
+4	4313	12	#line 4313 "NXCDefs.h"
+4	4314	12		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_sensor1
+4	4313	15	#line 4313 "NXCDefs.h"
+4	4314	15		set __DU0SetSensorLight_inline_sensor1, 5
+4	4313	18	#line 4313 "NXCDefs.h"
+4	4313	18	#line 4313 "NXCDefs.h"
+4	4314	18		jmp __001__ASM_Label_5
+4	4313	20	#line 4313 "NXCDefs.h"
+4	4314	20		set __DU0SetSensorLight_inline_sensor1, 6
+4	4313	23	#line 4313 "NXCDefs.h"
+4	4313	23	#line 4313 "NXCDefs.h"
+4	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor1, __DU0SetSensorLight_inline_sensor1
+4	4247	25	#line 4247 "NXCDefs.h"
+4	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor1, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1, 0
+4	4247	29	#line 4247 "NXCDefs.h"
+4	4314	29	#line 4314 "NXCDefs.h"
+4	4314	29	#line 4314 "NXCDefs.h"
+4	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor1
+4	4314	31	#line 4314 "NXCDefs.h"
+4	4314	31	#line 4314 "NXCDefs.h"
+4	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor1, 128
+4	4314	34	#line 4314 "NXCDefs.h"
+4	4260	34	#line 4260 "NXCDefs.h"
+4	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor1, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1, 1
+4	4260	38	#line 4260 "NXCDefs.h"
+4	4315	38	#line 4315 "NXCDefs.h"
+4	4315	38	#line 4315 "NXCDefs.h"
+4	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor1
+4	4315	40	#line 4315 "NXCDefs.h"
+4	4278	40	#line 4278 "NXCDefs.h"
+4	4279	40	#pragma macro 4
+4	4279	40		acquire __ResetSensorMutex
+4	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor1
+4	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	4279	45		release __ResetSensorMutex
+4	4418	46	#line 4418 "NXCDefs.h"
+4	4278	46	#line 4278 "NXCDefs.h"
+4	4316	46	#line 4316 "NXCDefs.h"
+4	29	46	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	29	46	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	30	46		getin __D0sensor1, __constVal0, 4
+4	29	50	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	30	50		mov __DF0sensor1, __D0sensor1
+4	29	52	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	30	52		subret __sensor1_return
+4	29	54	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	29	54	#line 29 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	30	54	#line 30 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+4	31	54		subret __sensor1_return
+5	33	0	#line 33 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	34	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_sensor2, 1
+5	33	3	#line 33 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	34	3	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	35	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor2, __constVal1
+5	4313	5	#line 4313 "NXCDefs.h"
+5	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor2
+5	4313	7	#line 4313 "NXCDefs.h"
+5	4313	7	#line 4313 "NXCDefs.h"
+5	4314	7		mov __DU0SetSensorLight_inline_sensor2, __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor2
+5	4313	9	#line 4313 "NXCDefs.h"
+5	4314	9		tst 5, __D0SetSensorLight_inline_sensor2, __DU0SetSensorLight_inline_sensor2
+5	4313	12	#line 4313 "NXCDefs.h"
+5	4314	12		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_sensor2
+5	4313	15	#line 4313 "NXCDefs.h"
+5	4314	15		set __DU0SetSensorLight_inline_sensor2, 5
+5	4313	18	#line 4313 "NXCDefs.h"
+5	4313	18	#line 4313 "NXCDefs.h"
+5	4314	18		jmp __002__ASM_Label_5
+5	4313	20	#line 4313 "NXCDefs.h"
+5	4314	20		set __DU0SetSensorLight_inline_sensor2, 6
+5	4313	23	#line 4313 "NXCDefs.h"
+5	4313	23	#line 4313 "NXCDefs.h"
+5	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor2, __DU0SetSensorLight_inline_sensor2
+5	4247	25	#line 4247 "NXCDefs.h"
+5	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor2, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2, 0
+5	4247	29	#line 4247 "NXCDefs.h"
+5	4314	29	#line 4314 "NXCDefs.h"
+5	4314	29	#line 4314 "NXCDefs.h"
+5	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor2
+5	4314	31	#line 4314 "NXCDefs.h"
+5	4314	31	#line 4314 "NXCDefs.h"
+5	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor2, 128
+5	4314	34	#line 4314 "NXCDefs.h"
+5	4260	34	#line 4260 "NXCDefs.h"
+5	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor2, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2, 1
+5	4260	38	#line 4260 "NXCDefs.h"
+5	4315	38	#line 4315 "NXCDefs.h"
+5	4315	38	#line 4315 "NXCDefs.h"
+5	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor2
+5	4315	40	#line 4315 "NXCDefs.h"
+5	4278	40	#line 4278 "NXCDefs.h"
+5	4279	40	#pragma macro 4
+5	4279	40		acquire __ResetSensorMutex
+5	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor2
+5	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	4279	45		release __ResetSensorMutex
+5	4524	46	#line 4524 "NXCDefs.h"
+5	4278	46	#line 4278 "NXCDefs.h"
+5	4316	46	#line 4316 "NXCDefs.h"
+5	34	46	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	34	46	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	35	46		getin __D0sensor2, __constVal1, 4
+5	34	50	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	35	50		mov __DF0sensor2, __D0sensor2
+5	34	52	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	35	52		subret __sensor2_return
+5	34	54	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	34	54	#line 34 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	35	54	#line 35 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+5	36	54		subret __sensor2_return
+6	38	0	#line 38 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	39	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3, 2
+6	38	3	#line 38 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	39	3	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	40	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3, __constVal1
+6	4313	5	#line 4313 "NXCDefs.h"
+6	4314	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+6	4313	7	#line 4313 "NXCDefs.h"
+6	4313	7	#line 4313 "NXCDefs.h"
+6	4314	7		mov __DU0SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_bActive_7qG2_000_inline_sensor3
+6	4313	9	#line 4313 "NXCDefs.h"
+6	4314	9		tst 5, __D0SetSensorLight_inline_sensor3, __DU0SetSensorLight_inline_sensor3
+6	4313	12	#line 4313 "NXCDefs.h"
+6	4314	12		brtst 4, __003__ASM_Label_4, __D0SetSensorLight_inline_sensor3
+6	4313	15	#line 4313 "NXCDefs.h"
+6	4314	15		set __DU0SetSensorLight_inline_sensor3, 5
+6	4313	18	#line 4313 "NXCDefs.h"
+6	4313	18	#line 4313 "NXCDefs.h"
+6	4314	18		jmp __003__ASM_Label_5
+6	4313	20	#line 4313 "NXCDefs.h"
+6	4314	20		set __DU0SetSensorLight_inline_sensor3, 6
+6	4313	23	#line 4313 "NXCDefs.h"
+6	4313	23	#line 4313 "NXCDefs.h"
+6	4314	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3, __DU0SetSensorLight_inline_sensor3
+6	4247	25	#line 4247 "NXCDefs.h"
+6	4248	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, 0
+6	4247	29	#line 4247 "NXCDefs.h"
+6	4314	29	#line 4314 "NXCDefs.h"
+6	4314	29	#line 4314 "NXCDefs.h"
+6	4315	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+6	4314	31	#line 4314 "NXCDefs.h"
+6	4314	31	#line 4314 "NXCDefs.h"
+6	4315	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3, 128
+6	4314	34	#line 4314 "NXCDefs.h"
+6	4260	34	#line 4260 "NXCDefs.h"
+6	4261	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, 1
+6	4260	38	#line 4260 "NXCDefs.h"
+6	4315	38	#line 4315 "NXCDefs.h"
+6	4315	38	#line 4315 "NXCDefs.h"
+6	4316	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3, __SetSensorLight_7qG2_port_7qG2_000_inline_sensor3
+6	4315	40	#line 4315 "NXCDefs.h"
+6	4278	40	#line 4278 "NXCDefs.h"
+6	4279	40	#pragma macro 4
+6	4279	40		acquire __ResetSensorMutex
+6	4279	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_sensor3
+6	4279	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+6	4279	45		release __ResetSensorMutex
+6	4630	46	#line 4630 "NXCDefs.h"
+6	4278	46	#line 4278 "NXCDefs.h"
+6	4316	46	#line 4316 "NXCDefs.h"
+6	39	46	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	39	46	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	40	46		getin __D0sensor3, __constVal2, 4
+6	39	50	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	40	50		mov __DF0sensor3, __D0sensor3
+6	39	52	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	40	52		subret __sensor3_return
+6	39	54	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	39	54	#line 39 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	40	54	#line 40 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+6	41	54		subret __sensor3_return
+7	45	0	#line 45 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	45	0	#line 45 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	46	0	#line 46 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	47	0		subcall sensor1, __sensor1_return
+7	46	2	#line 46 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	47	2		mov __getRelativeSensorLights_7qG2_sR_7qG2_000, __DF0sensor1
+7	46	4	#line 46 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	47	4	#line 47 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	48	4		subcall sensor2, __sensor2_return
+7	47	6	#line 47 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	48	6		mov __getRelativeSensorLights_7qG2_sL_7qG2_000, __DF0sensor2
+7	47	8	#line 47 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	50	8	#line 50 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	8		subcall sensor3, __sensor3_return
+7	50	10	#line 50 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	10		mov __getRelativeSensorLights_7qG2_sM_7qG2_000, __DF0sensor3
+7	50	12	#line 50 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	50	12	#line 50 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	50	12	#line 50 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	12	#line 51 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	12	#line 51 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	52	12		sub __getRelativeSensorLights_7qG2_abRM_7qG2_000, __getRelativeSensorLights_7qG2_sR_7qG2_000, __DF0sensor3
+7	51	16	#line 51 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	16	#line 51 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	51	16	#line 51 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	52	16	#line 52 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	52	16	#line 52 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	53	16		sub __getRelativeSensorLights_7qG2_abLM_7qG2_000, __getRelativeSensorLights_7qG2_sL_7qG2_000, __getRelativeSensorLights_7qG2_sM_7qG2_000
+7	52	20	#line 52 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	52	20	#line 52 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	52	20	#line 52 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	54	20	#line 54 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	54	20	#line 54 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	55	20		sub __getRelativeSensorLights_7qG2_a_7qG2_000, __getRelativeSensorLights_7qG2_abRM_7qG2_000, __getRelativeSensorLights_7qG2_abLM_7qG2_000
+7	54	24	#line 54 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	55	24	#line 55 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	56	24		mov __DF0getRelativeSensorLights, __getRelativeSensorLights_7qG2_a_7qG2_000
+7	55	26	#line 55 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	56	26		subret __getRelativeSensorLights_return
+7	55	28	#line 55 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	55	28	#line 55 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+7	56	28		subret __getRelativeSensorLights_return
+8	59	0	#line 59 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	60	0		set __turn_7qG2_a_7qG2_000, 50
+8	59	3	#line 59 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	59	3	#line 59 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	60	3		set __turn_7qG2_v_7qG2_000, 0
+8	59	6	#line 59 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	60	6	#line 60 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	61	6		subcall turn, __turn_return
+8	60	8	#line 60 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	60	8	#line 60 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	61	8		set __Wait_7qG2_ms_7qG2_000_inline_turnAround, 5
+8	60	11	#line 60 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	8551	11	#line 8551 "NXCDefs.h"
+8	8552	11		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_turnAround
+8	8551	14	#line 8551 "NXCDefs.h"
+8	61	14	#line 61 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	62	14	#line 62 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	63	14		set __D0turnAround, 1
+8	63	17	#line 63 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	17		tst 5, __D0turnAround, __D0turnAround
+8	63	20	#line 63 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	20		brtst 4, __ASM_Label_549, __D0turnAround
+8	63	23	#line 63 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	23		subcall getRelativeSensorLights, __getRelativeSensorLights_return
+8	63	25	#line 63 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	25		mov __DF0turnAround, __DF0getRelativeSensorLights
+8	64	27	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	27		abs __turnAround_7qG2_winkel_7qG2_001, __DF0turnAround
+8	64	30	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	30	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	30		set __signed_stack_001turnAround, 60
+8	64	33	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	33	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	33		set __signed_stack_002turnAround, 56
+8	64	36	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	64	36	#line 64 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	36		mov __DF0turnAround, __turnAround_7qG2_winkel_7qG2_001
+8	65	38	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	38		acquire __TextOutMutex
+8	65	39	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	39		mov __TextOutArgs.Location.X, __signed_stack_001turnAround
+8	65	41	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	41		mov __TextOutArgs.Location.Y, __signed_stack_002turnAround
+8	65	43	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	43		set __TextOutArgs.Options, 0
+8	65	46	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	46		numtostr __TextOutArgs.Text, __DF0turnAround
+8	65	49	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	49		syscall 13, __TextOutArgs
+8	65	52	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	52		mov __D0turnAround, __TextOutArgs.Result
+8	65	54	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	54		release __TextOutMutex
+8	65	55	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	55	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	55		mov __float_stack_001turnAround, __turnAround_7qG2_winkel_7qG2_001
+8	65	57	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	65	57	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	57		mov __DF0turnAround, __constVal20
+8	65	59	#line 65 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	59		cmp 1, __D0turnAround, __float_stack_001turnAround, __DF0turnAround
+8	66	63	#line 66 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	67	63		brtst 4, __ASM_Label_564, __D0turnAround
+8	66	66	#line 66 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	67	66		set __turn_7qG2_a_7qG2_000, 0
+8	66	69	#line 66 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	66	69	#line 66 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	67	69		set __turn_7qG2_v_7qG2_000, 0
+8	66	72	#line 66 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	67	72	#line 67 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	68	72		subcall turn, __turn_return
+8	67	74	#line 67 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	68	74	#line 68 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	69	74		jmp __ASM_Label_549
+8	68	76	#line 68 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	69	76	#line 69 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	69	76	#line 69 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	70	76		set __turn_7qG2_a_7qG2_000, 50
+8	69	79	#line 69 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	69	79	#line 69 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	70	79		set __turn_7qG2_v_7qG2_000, 0
+8	69	82	#line 69 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	70	82	#line 70 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	71	82		subcall turn, __turn_return
+8	70	84	#line 70 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	74	84	#line 74 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	75	84		jmp __ASM_Label_548
+8	74	86	#line 74 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	74	86	#line 74 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+8	75	86		subret __turnAround_return
+9	88	0	#line 88 "C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc"
+9	89	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\hjuhj\AppData\Local\Temp\temp.nxc
-1	__ResetSensorSubroutine	7	NXTDefs.h
-2	sensor	20	C:\Users\hjuhj\AppData\Local\Temp\temp.nxc
-3	__initialize_global_data	112	C:\Users\hjuhj\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+1	__ResetSensorSubroutine	37	NXTDefs.h
+2	drive	50	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+3	turn	116	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+4	sensor1	155	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+5	sensor2	211	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+6	sensor3	267	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+7	getRelativeSensorLights	323	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+8	turnAround	353	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
+9	__initialize_global_data	441	C:\Users\hjuhj\OneDrive\Freiburg\00_2324_WS\SDP - System Design Projekt\Programmierung\SDP_nxt_LineFollower\Main.nxc
