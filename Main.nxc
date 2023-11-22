@@ -2,12 +2,21 @@
 
 void drive(int A, int B)
 {
+ /*
+   direct command for physical motors
+   ** easiest use over turn
+ */
  OnFwd(OUT_A, -A);
  OnFwd(OUT_B, -B);
 };
 
 void turn (int a, int v)
 {
+ /*
+   enables direct control over speed and degree of turn
+   ** translates degree of turn into speed for each motor
+   ** implements turn by accessing the drive() function
+ */
  if (a>10){
     v = 50;
  }
@@ -19,6 +28,10 @@ void turn (int a, int v)
 
 float sensorUS ()
 {
+ /*
+   !! not in use yet
+   enables use / read of US (Ultraschall) sensor
+ */
  SetSensorLowspeed(IN_4);
  return SensorUS(IN_4);
  ClearScreen();
@@ -28,22 +41,41 @@ float sensorUS ()
 
 float sensor1 ()
 {
+ /*
+   enables use / read of the first sensor
+   ** the sensor the furthest to the right
+ */
  SetSensorLight(IN_1);
  return Sensor(IN_1);
 };
+
 float sensor2 ()
 {
+ /*
+   enables use / read of the second sensor
+   ** the sensor the furthest to the left
+ */
  SetSensorLight(IN_2);
  return Sensor(IN_2);
 };
+
 float sensor3 ()
 {
+ /*
+   enables use / read of the third sensor
+   ** the sensor in the centre
+ */
  SetSensorLight(IN_3);
  return Sensor(IN_3);
 };
 
 float getRelativeSensorLights()
 {
+ /*
+   outputs a float relative depending on the measurements of the ligtht-sensors
+   ** output "a" is then used as a measure for the degree of turn
+   ** "a" is positive for left-hand turn and negative for a right-hand turn
+ */
  int Abweichung = 0.05;
  float sR = sensor1();
  float sL = sensor2();
@@ -59,6 +91,12 @@ float getRelativeSensorLights()
 
 float turnAround()
 {
+ /*
+   enables the vehicle to turn around
+   ** it will first turn for a specified number of seconds
+   ** afterwards it will keep turning until one light-sensor "sees" the line
+   ** it will then stop and the main program of following the line starts
+ */
  turn(50, 0);
  Wait(5);
  while (true)
@@ -75,8 +113,13 @@ float turnAround()
 
 void followLine()
 {
+ /*
+   enables the vehicle to follow the line
+   ** a while loop during which the car follows the line
+   ** getRelativeSensorLights() is used to get the degree of turn from the sensor lights
+   ** this degree of turn will then be translated into a physical output by turn()
+ */
  int i = 0;
- float a = abs(getRelativeSensorLights());
  while(i<1000)
  {
   float winkel = getRelativeSensorLights();

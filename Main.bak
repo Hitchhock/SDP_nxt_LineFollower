@@ -87,7 +87,7 @@ void followLine()
 
 void howLongBreaks(int v){
 	/*
-
+       Counts ticks while not following black line (dependent on speed)
 	*/
   int firstTick;
   int lastTick;
@@ -113,7 +113,7 @@ void howLongBreaks(int v){
 
 task main()
 {
- howLongBreaks(50);
+ howLongBreaks(80);
  //turnAround();
  //followLine();
 }
