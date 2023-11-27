@@ -1,0 +1,81 @@
+        NOTLAR
+Licht_sensor: siyah= 35  beyaz= 66  gri = 57
+
+
+- task main() {...}: Jedes Programm benötigt einen main-Task
+
+- Kommentare werden durch // eingeleitet
+
+- TextOut(x, y, text): Gibt text an der Position (x, y) auf dem Display aus
+
+- Wait(x): warte für x Millisekunden
+
+- SetSensorLight(x): definiere x als Lichtsensor
+
+- ClearScreen(): lösche die Anzeige des NXT
+
+- NumOut(x, y, z): zeige Nummer z an Position (x, y) auf dem Display des NXT an
+
+- Sensor(x): Wert von Sensor an Eingang x
+
+- OnFwd(x, y): starte Vorwärtsgang auf Motor x mit y % der Maximalgeschwindigkeit
+
+- OnRev(x, y): gleich wie OnFwd, nur rückwärts
+
+-Off(x): stoppe Motor x
+
+# Ausgänge: OUT_A, OUT_B, OUT_C, OUT_AB, OUT_AC
+
+# Variablen: int (Ganze Zahl), float (Gleitkommazahl), bool (true oder false)
+
+# ==,!=, <, <=, >, !, &&, ||
+Gleichheit, Ungleichheit, kleiner, kleiner oder gleich, größer, Negierung, und, oder
+
+# if (Bedingung) {code1} else {code2}:
+
+# while (Bedingung) {code}: wiederhole die Ausführung von code solange Bedingung erfüllt ist
+
+
++ GELEN DEGERLERI EKRANA YAZDIRA ICIN
+task main()
+{
+    SetSensorLight(IN_1);
+    ClearScreen();
+    NumOut(60, LCD_LINE1, Sensor(IN_1));
+    Wait(2000);
+}
+
++ MOTORA 5 SANIYE GUC VERME
+task main()
+{
+    OnFwd(OUT_A, -100);
+    Wait(5000);
+    Off(OUT_A);
+}
+
++ Variablen speichern Werte
+task main()
+{
+    SetSensorLight(IN_1);
+    int lightSensorValue = Sensor(IN_1);
+    bool isOnTable = lightSensorValue < 50;
+    const float pi = 3.14159;
+}
+
++ Verknüpfung
+bool inRange = Sensor(IN_1) < 30 && Sensor(IN_2) >= 80
+
++ Bedingte Ausführung
+: task main()
+{
+    SetSensorTouch(IN_2);
+    if(Sensor(IN_2) != 1)
+    {
+    TextOut(0, 0, "Alles klar!");
+    }
+    else
+    {
+    TextOut(0, 0, "Hilfe, Unfall!");
+    }
+    Wait(5000);
+ }
