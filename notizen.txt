@@ -35,6 +35,9 @@ Gleichheit, Ungleichheit, kleiner, kleiner oder gleich, größer, Negierung, und
 
 # while (Bedingung) {code}: wiederhole die Ausführung von code solange Bedingung erfüllt ist
 
+# Preprocessor Directives :  Beispiel: #define x y gibt y den Namen x  #define THRESHOLD 30
+
+
 
 + GELEN DEGERLERI EKRANA YAZDIRA ICIN
 task main()
@@ -79,3 +82,50 @@ bool inRange = Sensor(IN_1) < 30 && Sensor(IN_2) >= 80
     }
     Wait(5000);
  }
+
+
+ + Beispiel
+#define THRESHOLD 30 // Wert in Prozent
+#define STATE_INIT 0
+#define STATE_SAFE_ON_TABLE 1
+#define STATE_DETECTED_EDGE 2
+
+int initialize()
+{
+    SetSensorLight(IN_1);
+    return STATE_SAFE_ON_TABLE;
+
+}
+
+int drive()
+ {
+    OnFwd(OUT_AC, 50);
+    if (Sensor(IN_1) <= THRESHOLD){
+    return STATE_DETECTED_EDGE;
+ }
+    return STATE_SAFE_ON_TABLE;
+ }
+ int turnAround()
+ {
+    Off(OUT_AC);
+    OnRev(OUT_C, 100);
+    Wait(800);
+    return STATE_SAFE_ON_TABLE;
+ }
+
+int state = STATE_INIT;
+task main()
+    {
+    while(true)
+        {
+        if (state == STATE_INIT){
+            state = initialize();
+        }
+        if (state == STATE_SAFE_ON_TABLE){
+            state = drive();
+        }
+        if (state == STATE_DETECTED_EDGE){
+            state = turnAround();
+        }
+    }
+}
